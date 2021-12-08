@@ -9,12 +9,13 @@ public class Strings4 {
      int length2 =B.length();
      int X=length1+length2;
      System.out.println(X);
-     if(length1>length2){
-     System.out.println("no");
+     if(A.compareTo(B)>0){
+     System.out.println("Yes");
      }
      else{
-         System.out.println("yes");
-     }
+        System.out.println("No");
+    }
+            
      System.out.println(A.substring(0,1).toUpperCase()+A.substring(1).toLowerCase()+"  "+
      B.substring(0,1).toUpperCase()+B.substring(1).toLowerCase()+"  ");
 
@@ -24,3 +25,4 @@ public class Strings4 {
     }
     
 }
+
